@@ -21,7 +21,7 @@ public class Cola implements ColaTDA {
     @Override
     public void desacolar() {
         // Desplaza todos los elementos una posición hacia la izquierda,
-        // eliminando así el primer elemento (arr[0]) de la cola.
+        // eliminando así el primer elemento (arr[0]) de la cola.s
         for (int i = 0; i < inx - 1; i++) {
             arr[i] = arr[i + 1];
         }
