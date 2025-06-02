@@ -1,0 +1,6 @@
+Para el arbol de la izquierda, la complejidad de búsqueda es de O(log n) (orden logarítmico) ya que la cantidad de elementos
+a analizar se reduce a la mitad en cada paso.
+
+Para el arbol de la derecha, la complejidad de búsqueda es de O(n), ya que se debe iterar toda la estructura para buscar un valor
+específico. En este caso, el arbol está degenerado y toma una estructura similar a la de una lista enlazada, cuya complejidad
+de búsqueda es O(n) también.
