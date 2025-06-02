@@ -15,6 +15,7 @@ public class Pila implements PilaTDA{
 
 	@Override
 	public void apilar(int x) {
+		// Se apilan elementos al principio de la pila.
 		Nodo nuevo = new Nodo();
 		nuevo.info = x;
 		nuevo.sig = primero;
@@ -23,6 +24,7 @@ public class Pila implements PilaTDA{
 
 	@Override
 	public void desapilar() {
+		// Se saca el primero. El nuevo primero pasa a ser el que le sigue al primero actual.
 		primero = primero.sig;
 	}
 

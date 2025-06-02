@@ -4,6 +4,6 @@ public interface ColaTDA {
 	void inicializarCola();
 	void acolar(int x);
 	void desacolar();
-	int primerElemento();
-	boolean colaVacia();
+	int primero();
+	boolean vacio();
 }
